@@ -1,8 +1,6 @@
 from machine import Pin, I2C
 import time
 
-b = bytes.fromhex("5184")
-
 commands = {
     0:  bytes.fromhex("518403100000a8"),
     10: bytes.fromhex("51840310000aa2"),
